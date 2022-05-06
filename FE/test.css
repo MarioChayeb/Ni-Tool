@@ -1,0 +1,17 @@
+.nealias{
+   margin-left: 700px;
+}
+#grid{
+    margin: 50px;
+}
+
+body {
+    background-image: url('Images/tracking-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+h1{
+    color: red;
+}

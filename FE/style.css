@@ -1,0 +1,213 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+} 
+/* To make it applicable to all webpage */
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(Images/banner.jpg); /*fetching the background image*/
+    background-position: center;
+    background-size: cover;
+    position: relative;
+     
+}
+.tracking-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(Images/tracking-bg.jpg);  
+    background-position: center;
+    background-size: cover;
+    position: relative;
+     
+}
+
+nav{
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between; /*distributes space between and around content items along the main-axis of a flex container*/
+    align-items: center;
+}
+
+
+nav img {
+    width: 150px;
+
+}
+
+.nav-links{
+    flex: 1; /*occupy all space in row*/
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px 25px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.text-box{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #f44336;
+}
+
+.text-box p{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 50px;
+    width: 90%;
+    color: #fff
+
+}
+
+.visit-btn{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: none;
+    color:#fff;
+    border: 3px solid #fff;
+    padding: 20px 35px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-left: -80px;
+    margin-top: 30px;
+}
+
+
+
+
+/*//////////////////////////////////////////Solutions section/////////////////////////////////////////////////////////*/
+
+.solutions{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 90px;
+    
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;  /*all divs in this class will be in a column */
+    justify-content: space-between;
+}
+
+.sol-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+  
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+/*//////////////////////////////////////////Solutions section/////////////////////////////////////////////////////////*/
+
+/*//////////////////////////////////////////Centers section/////////////////////////////////////////////////////////*/
+
+.center{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.center-col{
+    flex-basis: 32%; /*initial main size*/
+     /* border-radius: 150px;  */
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden; /*prevents scrollbars from showing up*/
+}
+
+.center-col img{
+    width: 100%;
+    height: 85%;
+    display: block;
+}
+
+.layer{
+    background:transparent;
+    height: 85%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*//////////////////////////////////////////Centers section/////////////////////////////////////////////////////////*/
+
+
+/*//////////////////////////////////////////CONTACTUS section/////////////////////////////////////////////////////////*/
+
+.contactus{
+    margin: 100px auto;
+    width: 80%;
+    background-image: url(Images/contactus.png);
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 20px; */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contactus h1{
+    color:#f44336;
+    margin-top: 90px;
+}
+/*//////////////////////////////////////////CONTACTUS section/////////////////////////////////////////////////////////*/
+
+/*//////////////////////////////////////////Footer section/////////////////////////////////////////////////////////*/
+
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
